@@ -1,0 +1,54 @@
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*.so
+*.pyd
+*.pyo
+
+# Virtual environment
+venv/
+env/
+
+# Environment variables / secrets
+.env
+
+
+# IDE / Editor config files
+.vscode/
+.idea/
+*.iml
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Logs & debugging
+logs/
+*.log
+
+# Python package dependencies
+*.egg-info/
+pip-log.txt
+
+# Compiled Python files
+*.pyc
+*.pyo
+*.pyd
+
+# Jupyter Notebooks checkpoints (if applicable)
+.ipynb_checkpoints/
+
+# Docker (if using)
+docker-compose.override.yml
+.dockerignore
+
+# Node.js (if you have a frontend in the same repo)
+node_modules/
+package-lock.json
+yarn.lock
+
+# Streamlit Cache (if applicable)
+.streamlit/
+
+# LangChain Cache
+langchain_cache/
